@@ -1,0 +1,284 @@
+html {
+
+		font-size: 16px;  /*absoluta*/
+		
+	}
+	
+
+body {
+
+		background-color: white;
+		color: #cd3263;
+		font-family: "Lucida Handrwriting", cursive; 
+		
+		
+	}
+
+h1 {
+
+		color: lightslategrey;
+		font-family: "Dancing Script", cursive; /*"Copperplate", fantasy;*/
+		text-transform: capitalize; /*primera letra de la palabra en mayuscula*/
+		text-align: center; /*desplaza el txto*/
+		text-shadow: 4px 4px 4px white; /*degradado*/
+		font-size: 5rem;
+		
+	}
+	
+h2,h3 {
+
+		color: #637383;
+		font-family:  "Great Vibes", cursive; /*"Verdana", sans-serif;*/
+		
+	}
+	
+h2 {
+
+		font-size: 2.5rem;
+		
+	}
+	
+h3 { 
+
+		font-size: 2rem;
+		
+	}
+
+a {
+
+		color: inherit;/*adquiere el del padre*/
+		text-decoration: none;/*quita subrayados*/
+		
+	}
+	
+ul { 
+
+		color: hotpink;
+	
+	}
+	
+#indice-articulos {
+	
+		color: mintcream;
+		list-style-type: none; /*quita los puntitos*/
+		font-family: "Monaco", "Lucida Console", monospace;
+		font-weight: bold; /*negrita*/
+		font-style: italic; /*cursiva*/
+		font-size: 1.15rem;
+		padding-left: 10px; 
+
+	
+	}
+	
+ol {
+		color: hotpink;
+		
+	}
+	
+.lista-colorida {
+	
+		color: red;
+	
+	}
+
+
+.par {
+	
+		color: #ff66b3;
+		
+	}
+	
+.impar {
+		
+		color:	#ff80bf;
+	}
+		
+img {
+
+		max-width: 100%;
+		
+	}
+	
+		
+.imagen-intro {
+		
+		max-width: 100%;
+	}
+	
+.contenedor-portada { 
+
+		border: 2px solid lightpink;
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+#contenedor {
+		
+		border-top: 50px solid lightslategrey;
+		background-color: #f5d6e0;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 30px;
+		min-width: 500px; /*minimo en la pantalla*/
+		
+	}
+
+#menu {
+
+		border: 2px solid lightpink; /*bordes de la caja*/
+		color: black; /*color de letra*/
+		background-color: lightslategrey; /*color de fondo*/
+		padding: 10px;
+		margin: 10px; /*separacion de cajas*/
+		margin-left: auto;
+		margin-right: auto;
+		/*width: 30%; anchura de largo*/
+		display: flex; /*las cajas hijas se visualizan con flexibilidad, todas en horizontal*/
+		flex-direction: row; /*column*/
+	}
+	
+#menu li {
+		background-color: white;
+		/*border: 2px solid lightpink;*/
+		padding: 0px;
+		margin: 5px;
+		text-align: left;
+		flex: 0 auto; /*cajas a escala(reparte proporcionalmente), anchura minima*/
+		list-style-type: none;
+		border-radius: 6px;
+		
+		}
+	
+#menu li a  {
+
+		color: lightslategrey;
+		padding: 10px;
+		display: block;
+		
+	}
+	
+#menu li a:hover {
+
+		background-color:  #f5d6e0;
+		border-radius: 6px;
+		
+	}
+	
+#menu li:hover .submenu {
+
+		/*border: 2px solid lightpink;*/
+		padding-left: 0px;
+		display: block;
+		background-color: lightslategrey;
+		position: absolute;
+		border-radius: 6px;
+		display: block;
+		
+	}
+	
+#menu li .submenu {
+
+		display: none;
+		
+	}
+
+
+/*.imagen-articulo1 {
+
+		max-width: 400px;
+	
+	}
+
+.imagen-articulo2 {
+		
+		max-width: 400px;
+		
+	
+	}*/
+	
+#header {
+		
+		/*border: 2px solid lightpink;*/
+		
+	}
+	
+#nav {
+
+		/*border: 2px solid lightpink;*/
+	
+	}
+		
+#main {
+
+		/*border: 2px solid lightpink;*/
+		display: flex;
+		flex-direction: row;
+	}
+	
+#main .columna-principal {
+		
+		/*border: 2px solid lightpink;*/
+		order: 1;
+		flex: 3;
+		
+	}
+	
+#main .columna-lateral {
+
+		border: 2px solid lightpink;
+		order: 2;
+		flex: 1;
+		background-color: lightslategrey;
+	
+	}
+	
+.articulo {
+		
+		background-color: #ffe6e8;
+		margin: 10px;
+		padding: 10px;
+		color: lightslategrey;
+		list-style-type: none; /*quita los puntitos*/
+		font-family: "Monaco", "Lucida Console", monospace;
+		font-weight: bold; /*negrita*/
+		font-style: italic; /*cursiva*/
+		font-size: 1.15rem;
+		padding-left: 10px; 
+		
+	}
+
+.intro-articulo {
+
+		background-color: #ffe6e8;
+		display: flex;
+		/*align-items: center;*/
+		flex-direction: row;
+		margin: 10px;
+	}
+
+.texto {
+
+		padding: 10px;
+		
+	}
+	
+.imagen-articulo {
+
+		max-width: 400px;
+		margin: auto;
+		margin-left: 10px;
+		
+	}
+
+
+	
+#footer {
+		margin: 10px;
+		border: 2px solid lightpink;
+		background-color: white;
+		text-align: center;
+		height: 100px;
+	}
+	
